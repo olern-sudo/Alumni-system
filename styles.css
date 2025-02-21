@@ -11,9 +11,20 @@ and selecting divs by id is # and selecting divs by classed is a .
     padding: 40px;/*box model for the space insicde the element*/
     color: white;
 }
-div{
-    color: gray;
+#description{
+    background-color: #aec4c4;
+    /* sizes in css are px pt pc rem em percentages % and vh vw which means vuew heught angd view wdith */
+    padding: 30px;
 }
-.main{
-    color: black;/* it overrides the eralier definitions of the css*/
+/* we select css elemtns but . for classes by # for id and by nam/tag (h1 h2 div )*/
+.fatherdiv{
+    display: flex;
+    justify-content: space-between;/* horizontoal postions*/
+    align-items: center;/* verticla postion*/
+}
+.oler{
+    border: #8f8787 solid 1px;
+    text-align: center;
+    padding: 10px;
+    margin: 32px;
 }
