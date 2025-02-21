@@ -1,0 +1,19 @@
+/*#
+comments are wrtiten using /* 
+and selecting divs by id is # and selecting divs by classed is a .
+.*/
+#main{
+    color: aquamarine;
+}
+.main{
+    background-color: rgb(156, 156, 196);
+    margin: 20px;/*box model of the space arround the element */
+    padding: 40px;/*box model for the space insicde the element*/
+    color: white;
+}
+div{
+    color: gray;
+}
+.main{
+    color: black;/* it overrides the eralier definitions of the css*/
+}
